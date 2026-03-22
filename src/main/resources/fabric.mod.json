@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "nomadlife",
+  "version": "1.0.0",
+  "name": "NomadLife",
+  "description": "Team management and player stats sync for NomadLife anarchy SMP",
+  "authors": [
+    "qzz"
+  ],
+  "contact": {
+    "homepage": "https://nomadlife.qzz.io",
+    "sources": "https://github.com/Rishies2010"
+  },
+  "license": "MIT",
+  "icon": "assets/nomadlife/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.qzz.nomadlife.NomadLife"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*",
+    "placeholder-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
